@@ -1,5 +1,5 @@
 # Region-Adaptive-Transform-with-Segmentation-Prior-for-Image-Compression
-Paper link: https://arxiv.org/abs/2403.00628.
+The [paper](https://arxiv.org/abs/2403.00628.) is under review and the version may be continuously updated, thank you for your attention!
 
 ## About
 Our SegPIC introduces proposed RAT and SAL based on [WACNN](https://github.com/Googolxx/STF).
