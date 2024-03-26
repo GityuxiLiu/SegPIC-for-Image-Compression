@@ -29,7 +29,7 @@ The data format is as follows:
     - train2017/
         - img000.jpg
         - img001.jpg
-    - test2017/
+    - val2017/
         - img002.jpg
         - img003.jpg
     - annotations/
