@@ -23,6 +23,22 @@ We provide 6 checkpoints optimized by MSE. See [Google Drive](https://drive.goog
 
 ## Training Dataset
 [COCO-train-2017](http://images.cocodataset.org/zips/train2017.zip) for training, [COCO-val-2017](http://images.cocodataset.org/zips/val2017.zip) for validation and [panoptic_annotations](http://images.cocodataset.org/annotations/panoptic_annotations_trainval2017.zip) for .png masks.
-
+The data format is as follows:
+```bash
+- COCO-Stuff/
+    - train2017/
+        - img000.jpg
+        - img001.jpg
+    - test2017/
+        - img002.jpg
+        - img003.jpg
+    - annotations/
+        - panoptic_train2017/
+            - img000.png
+            - img001.png
+        - panoptic_val2017/
+            - img002.png
+            - img003.png
+```
 ## Training and Testing
 The overall usage is the same as [WACNN](https://github.com/Googolxx/STF) and [CompressAI](https://github.com/InterDigitalInc/CompressAI). Please see `run.sh` and `test.sh`.
