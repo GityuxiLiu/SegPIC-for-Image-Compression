@@ -1,0 +1,4 @@
+ddf_add_ext
+ddf_add_faster_ext
+ddf_mul_ext
+ddf_mul_faster_ext

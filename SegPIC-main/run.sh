@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=0,1 python -u train.py --cuda \
+ -e 400 \
+ -m segpic \
+ --batch-size 32 \
+ --num-workers 32 \
+ --save --save_path /opt/data/private/ckpt/segpic_0035.pth.tar \
+ --lambda 0.0035 \
+ -d /opt/data/private/dataset/COCO-Stuff \
+ --saveStep 10 \
+ --p_aug 0 \
+ --useMask \
+ --lrReset -lr 1e-4  --lr_patience 16 --lr_min 5e-6 \

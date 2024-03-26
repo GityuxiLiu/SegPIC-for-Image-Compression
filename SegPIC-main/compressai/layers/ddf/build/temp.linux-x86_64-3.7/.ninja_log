@@ -1,0 +1,3 @@
+# ninja log v5
+0	21784	1678870213491790670	/opt/data/private/SegAttCompress/compressai/layers/ddf/build/temp.linux-x86_64-3.7/src/cuda/ddf_mul_cuda.o	3ce0d17c69c63440
+1	21983	1678870214069839894	/opt/data/private/SegAttCompress/compressai/layers/ddf/build/temp.linux-x86_64-3.7/src/ddf_mul_ext.o	2b91e5f93a64c1c1
