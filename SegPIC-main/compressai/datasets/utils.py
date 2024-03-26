@@ -32,7 +32,6 @@ down_type = Image.ANTIALIAS
 
 class ImageFolder(Dataset):
     def __init__(self, root, transform=None, split="train", noAugment=False, p_aug=0):
-        splitdir = Path(root) / "train2017"
         if split == "train":
             splitdir = Path(root) / "train2017"
         elif split == "test":
