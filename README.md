@@ -21,5 +21,8 @@ You can refer to them for installation. It is also recommended to adopt Pytorch-
 ## Checkpoints
 We provide 6 checkpoints optimized by MSE. See [Google Drive](https://drive.google.com/drive/folders/1rDyvCVkTiqzCq4urW60OsIKOTLWBp3si?usp=drive_link).
 
+## Training Dataset
+[COCO-train-2017](http://images.cocodataset.org/zips/train2017.zip) for training, [COCO-val-2017](http://images.cocodataset.org/zips/val2017.zip) for valuation and [panoptic_annotations](http://images.cocodataset.org/annotations/panoptic_annotations_trainval2017.zip) for .png masks.
+
 ## Training and Testing
 The overall usage is the same as [WACNN](https://github.com/Googolxx/STF) and [CompressAI](https://github.com/InterDigitalInc/CompressAI). Please see `run.sh` and `test.sh`.
