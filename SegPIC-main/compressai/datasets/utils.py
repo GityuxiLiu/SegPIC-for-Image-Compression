@@ -30,6 +30,22 @@ import json
 # down_type = Image.Resampling.LANCZOS
 down_type = Image.ANTIALIAS
 
+```bash
+- COCO-Stuff/
+    - train2017/
+        - img000.jpg
+        - img001.jpg
+    - val2017/
+        - img002.jpg
+        - img003.jpg
+    - annotations/
+        - panoptic_train2017/
+            - img000.png
+            - img001.png
+        - panoptic_val2017/
+            - img002.png
+            - img003.png
+```
 class ImageFolder(Dataset):
     def __init__(self, root, transform=None, split="train", noAugment=False, p_aug=0):
         if split == "train":
