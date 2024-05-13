@@ -71,7 +71,7 @@ def read_image(filepath: str) -> torch.Tensor:
         h, w = args.crop
     else:
         h, w = img.shape[-2:]
-    img = transforms.CenterCrop([h//64*64, w//64*64])(img)
+    # img = transforms.CenterCrop([h//64*64, w//64*64])(img)
     return img
 
 def reconstruct(reconstruction, filename, recon_path):
