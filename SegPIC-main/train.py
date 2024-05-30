@@ -454,15 +454,15 @@ def main(argv):
         
     for epoch in range(last_epoch, args.epochs):
         print(f"Learning rate: {optimizer.param_groups[0]['lr']}")
-        # train_one_epoch(
-        #     net,
-        #     criterion,
-        #     train_dataloader,
-        #     optimizer,
-        #     aux_optimizer,
-        #     epoch,
-        #     args.clip_max_norm,
-        # )
+        train_one_epoch(
+            net,
+            criterion,
+            train_dataloader,
+            optimizer,
+            aux_optimizer,
+            epoch,
+            args.clip_max_norm,
+        )
         loss = test_epoch(epoch, test_dataloader, net, criterion)
         lr_scheduler.step(loss)
         is_best = loss < best_loss
