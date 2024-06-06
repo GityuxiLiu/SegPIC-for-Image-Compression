@@ -476,13 +476,13 @@ def main(argv):
             "aux_optimizer": aux_optimizer.state_dict(),
             "lr_scheduler": lr_scheduler.state_dict(),
         }
-        ckp_state2 = {
-            "state_dict": net.state_dict(),
-        }
+        # ckp_state2 = {
+        #     "state_dict": net.state_dict(),
+        # }
 
         if args.save:
             save_checkpoint(ckp_state, is_best, args.save_path,)
-            save_checkpoint(ckp_state2, is_best, args.save_path,)
+            # save_checkpoint(ckp_state2, is_best, args.save_path,)
         
         if args.saveStep > 0:
             if epoch % args.saveStep == 0:
