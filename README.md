@@ -1,6 +1,9 @@
 # Region Adaptive Transform with Segmentation Prior for Image Compression
 The [paper](https://arxiv.org/abs/2403.00628) has been accepted by ECCV2024！ The Arxiv version will be updated soon. Thank you for your attention!
 
+_I am looking for PhD opportunities, so if you are interested in my research, feel free to ask me for a CV._
+_我正在寻找博士学位的机会，如果您对我的研究感兴趣，欢迎向我询问简历。_
+
 ## About
 Our SegPIC introduces proposed RAT and SAL based on [WACNN](https://github.com/Googolxx/STF).
 
