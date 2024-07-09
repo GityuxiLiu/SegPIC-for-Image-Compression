@@ -1,4 +1,4 @@
-# Region-Adaptive-Transform-with-Segmentation-Prior-for-Image-Compression
+# Region Adaptive Transform with Segmentation Prior for Image Compression
 The [paper](https://arxiv.org/abs/2403.00628) has been accepted by ECCV2024！ The Arxiv version will be updated soon. Thank you for your attention!
 
 ## About
