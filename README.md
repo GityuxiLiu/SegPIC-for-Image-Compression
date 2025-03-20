@@ -43,3 +43,14 @@ The data format is as follows:
 ```
 ## Training and Testing
 The overall usage is the same as [WACNN](https://github.com/Googolxx/STF) and [CompressAI](https://github.com/InterDigitalInc/CompressAI). Please see `run.sh` and `test.sh`.
+
+## Citation
+```bash
+@inproceedings{liu2024region,
+  title={Region-adaptive transform with segmentation prior for image compression},
+  author={Liu, Yuxi and Yang, Wenhan and Bai, Huihui and Wei, Yunchao and Zhao, Yao},
+  booktitle={European Conference on Computer Vision},
+  pages={181--197},
+  year={2024},
+}
+```
